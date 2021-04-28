@@ -1,11 +1,10 @@
 # Gato-F5
 Aplicação Web para a cada reload da página, uma nvoa foto de gatinho aparecer.
-
 # *
-🟢Código Ok.
+🟢Código Ok
 
-🔴Código com problema.
+🔴Código com problema
 
-🟣Código atualizado.
+🟣Código atualizado
 
-⚪Versão definitiva.
+⚪Versão definitiva
