@@ -1,4 +1,4 @@
-# Gato-F5
+# AnmZ-F5
 Aplicação Web para a cada reload da página, uma nvoa foto de gatinho aparecer.
 
 # Implementações
@@ -8,13 +8,13 @@ Adicionar uma opção para recebimento de fotos de animais ⚫
 
 Adicionar repositório do Github ⚫
 # *
-🟢 Código Ok 
+🔱 Código Ok 
 
-🔴 Código com problema 
+❌ Código com problema 
 
-🟣 Código atualizado
+➕ Código atualizado
 
-⚫ Em andamento
+⭕ Em andamento
 
-⚪ Versão definitiva
+⬜ Versão definitiva
 
