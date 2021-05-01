@@ -8,7 +8,9 @@ Adicionar uma opção para recebimento de fotos de animais.<>
 
 Adicionar repositório do Github.<>
 
-Abrir site no servidor do Heroku.
+Abrir site no servidor do Heroku.<>
+
+Aplicar o yarn na aplicação.
 
 Alargar imagem em um maior tamanho no para PC.X
 
