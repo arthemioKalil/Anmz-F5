@@ -10,3 +10,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
+App.listen(process.env.PORT || 3000);
