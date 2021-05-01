@@ -5,123 +5,245 @@
   text-decoration: none;
 
   border: 0;
-  outline: 0;
+  outline: none;
 
   box-sizing: border-box;
 }
 :root{
   --color-green: rgba(14, 230, 122, 0.959);
+  --color-purple: rgb(224, 49, 201);
 }
 body{
   background: rgb(17, 17, 17);
+}
 
+.onclick body {
+  background: rgb(226, 226, 226);
+
+  transition: background .5s;
+}
+.onclick .img-animal-wrapper{
+  background: rgb(17, 17, 17);
+}
+.onclick .img-animal-wrapper img{
+
+  box-shadow: 8px 8px 1px var(--color-purple)
+}
+.onclick .logo-name h1{
+  color: rgb(17, 17, 17);
+  
+  transition: text-shadow .6s;
+}
+.onclick .logo-name h1:hover{
+  text-shadow: 0 0 .5rem rgb(15, 15, 15);
+}
+.onclick .footpage ul{
+  background: rgb(17, 17, 17);
+}
+.onclick .footpage{
+  background: rgb(14, 14, 14);
+
+}
+.onclick .footpage .contact{
+  color: aliceblue;
+}
+.onclick .footpage .contact p{
+  color: rgb(196, 196, 196);
 }
 
 
-.homepage .topbar{
+.homepage .line-topbar{
   width: solid 3px;
   height: .3rem;
 
   position: relative;
   background: var(--color-green);
   
+  transition: background .5s;
 }
-.img-animal-wrapper img{
-  position: relative;
-  width: 100%;
-  height: 50vh;
-  object-fit:contain;
+.onclick .line-topbar{
+  background: var(--color-purple);
+}
+.img-animal-wrapper{
+  display: flex;
+  justify-content: center;
 
   background: rgb(226, 226, 226);
 }
+.img-animal-wrapper img{
+  width: auto;
+  height: 50.1vh;
 
-.midpage{
   display: flex;
-  justify-content:center;
+  object-fit: cover;
 
-  height: 5rem;
+  box-shadow: 8px 8px 1px var(--color-green);
+
+  transition: box-shadow .5s;
 }
-.midpage h1{
+
+.logo-name{
+  width: 10rem;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  margin: 0 auto 34vh auto;
+}
+
+.logo-name h1{
+
   color: rgb(255, 255, 255);
   font-size: 3rem;
 
   transition: text-shadow .6s;
 }
-.midpage h1:hover{
+.logo-name:hover{
   text-shadow: 0 0 .5rem rgb(228, 228, 228);
-  
+
 }
-.footpage{
-  position:relative;
+.logo-name{
+  cursor: pointer;
+}
+.contact p:hover{
+font-weight: normal;
+}
+.contact h2{
+  font-weight: bolder;
+}
+.midpage img{
+  object-fit: cover;
+  width: 7rem;
+
   display: flex;
-  top: 19.3rem;
-  width: 100%;
-  height: 4.6rem;
-  background: aliceblue;
-
-}
-.footpage a{
-position:relative;
-justify-content: space-evenly;
-
-display: flex;
-align-items: center;
-margin: auto;
-padding: .3rem .3rem;
-
-font-weight: bolder;
-font-size: 1.3rem;
-
-color: inherit;
-
-transition: color .7s, text-shadow .7s, box-shadow .7s;
-}
-.footpage a {
-  color: rgb(20, 20, 20);
-}
-.footpage #cr:hover{
-  color: var(--color-green);
-  text-shadow: 0 0 .1rem var(--color-green);
-  box-shadow: -4px 0 1.1px var(--color-green);
-}
-.footpage #gh:hover{
-  color: rgb(236, 201, 1);
-  text-shadow: 0 0 .1rem rgb(236, 201, 1);
-  box-shadow: -4px 0 1.1px rgb(236, 201, 1);
-}
-.footpage #ct:hover{
-  color: rgb(236, 1, 205);
-  text-shadow: 0 0 .1rem rgb(236, 1, 205);
-  box-shadow: -4px 0 1.1px rgb(236, 1, 205);
-}
-.onclick acabaxi{
-  color: blueviolet;
-  background: yellow;
-}
-
-.line-footpage{
-  width: solid 1px;
-  height: .5rem;
-  min-height: 1px;
 
   position: relative;
-  top: 19.4rem;
+  bottom: .2rem;
+  
+  transition: .5s;
+}
+.midpage img:hover{
+  width: 10rem;
+
+  position: relative;
+  bottom: 1rem;
+}
+.midpage ul{
+
+  position:relative;
+  display: flex;
+  height: 5rem;
+  background: rgb(31, 30, 30);
+
+  box-shadow: 50px 8px 1px rgba(51, 51, 51, 0.596);
+
+}
+.midpage ul, li, a li, a{
+
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin: 0 auto;
+  padding: .5rem .5rem;
+  
+  font-weight: bolder;
+  font-size: 1.3rem;
+
+  color: inherit;
+  
+  transition: color .7s, text-shadow .7s, box-shadow .7s;
+  
+  }
+.midpage a, .midpage ul{
+  color: rgb(224, 224, 224);
+}
+.onclick .midpage a,.onclick .midpage ul{
+  color: aliceblue;
+}
+
+.midpage #cr:hover{
+  color: var(--color-green);
+  text-shadow: 0 0 .1rem var(--color-green);
+  box-shadow: 0 .2rem 1.1px var(--color-green);
+}
+
+.midpage:hover > .line-midpage{
+  background: rgb(212, 209, 24);
+
+}
+.midpage #gh:hover{
+  color: rgb(224, 194, 23);
+  text-shadow: 0 0 .1rem rgb(224, 194, 23);
+  box-shadow: -.2rem .2rem 1.1px rgb(224, 194, 23);
+
+  background: aliceblue;
+}
+.midpage #ct{
+  transition: background .2s;
+}
+.midpage #gh{
+  transition: background .2s;
+}
+.midpage #ct:hover{
+  color: var(--color-purple);
+  text-shadow: 0 0 .1rem var(--color-purple);
+  box-shadow: .2rem .2rem 1.1px var(--color-purple);
+
+  background: aliceblue;
+}
+
+.line-midpage{
+  width: solid 1px;
+  height: .3rem;
 
   background: var(--color-green);
+
+  transition: background 1.5s;
+}
+.onclick .line-midpage{
+  background: var(--color-purple);
 }
 
-p::selection{
+.footpage{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 50%;
+
+  background: rgb(218, 218, 218);
+
+}
+.footpage .contact{
+  color:rgb(44, 44, 44);
+  padding: 10rem 0 0 0;
+  height: 10vh;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+.contact p{
+  width: 60vw;
+  height: 8vh;
+
+  font-weight: lighter;
+  font-size: 20px;
+
+  display: flex;
+
+  transition: 1s;
+}
+
+*::selection{
   color: rgb(224, 224, 224);
   background: #333;
 }
-h1::selection{
-  color: rgb(224, 224, 224);
-  background: #333;
-}
-li::selection{
-  color: rgb(224, 224, 224);
-  background: #333;
-}
+
 body::-webkit-scrollbar {
   width: 8px;        
 }

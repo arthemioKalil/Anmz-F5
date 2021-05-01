@@ -1,21 +1,16 @@
 # AnmZ-F5
-Aplicação Web para a cada reload da página, uma nvoa foto de gatinho aparecer.
+Aplicação Web para a cada reload da página, uma nova foto de animal aparecer.
 
 # Implementações
-Adicionar o alocamento de fotos aleatórias em uma biblioteca 🔱
+Adicionar o alocamento de fotos aleatórias em uma biblioteca.<>
 
-Adicionar uma opção para recebimento de fotos de animais ⭕
+Adicionar uma opção para recebimento de fotos de animais.<>
 
-Adicionar repositório do Github ⭕
+Adicionar repositório do Github.<>
 
-# *
-🔱 Código Ok 
+Abrir site no servidor do Heroku.
 
-❌ Código com problema
+Alargar imagem em um maior tamanho no para PC.X
 
-➕ Código atualizado
 
-⭕ Em andamento
-
-⬜ Versão definitiva
-
+| Versão definitiva: Não |
