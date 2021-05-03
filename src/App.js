@@ -1,7 +1,6 @@
 import './App.css';
 import './Generator';
-import './ActionScript';
-
+import './ActionScript'
 
 function App() {
   return (

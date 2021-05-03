@@ -2,17 +2,17 @@
 Aplicação Web para a cada reload da página, uma nova foto de animal aparecer.
 
 # Implementações
-Adicionar o alocamento de fotos aleatórias em uma biblioteca.<>
+Adicionar o alocamento de fotos aleatórias em uma biblioteca.✔
 
-Adicionar uma opção para recebimento de fotos de animais.<>
+Adicionar uma opção para recebimento de fotos de animais.✔
 
-Adicionar repositório do Github.<>
+Adicionar repositório do Github.✔
 
-Abrir site no servidor do Heroku.<>
+Abrir site no servidor do Heroku.✔
 
-Aplicar o yarn na aplicação.
+Aplicar o yarn na aplicação.✔
 
-Alargar imagem em um maior tamanho no para PC.X
+Alargar imagem em um maior tamanho no para PC.
 
 
 | Versão definitiva: Não |

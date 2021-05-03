@@ -11,7 +11,11 @@
                     'https://pbs.twimg.com/media/EzlORKTX0AAHbXN?format=jpg&name=360x360',
                     'https://pbs.twimg.com/media/Ey3eHieXMAU-auZ?format=jpg&name=medium',
                     'https://pbs.twimg.com/media/E0EBPKcWQAMoGje?format=jpg&name=small',
+                    './gnt/animal1.jpg',
+                    './gnt/animal3.jpg',
+                    './gnt/animal4.jpg',
                     './gnt/animal2.jpg'
+
                 ];
 
             function ChangeImage(myElement, myImgs) {
@@ -22,7 +26,6 @@
             }
 
             ChangeImage(myElement, myImgs);
-
 
             // JS/>
         }
