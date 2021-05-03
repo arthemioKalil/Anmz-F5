@@ -67,15 +67,17 @@ body{
 .img-animal-wrapper{
   display: flex;
   justify-content: center;
+  object-fit: contain;
 
   background: rgb(226, 226, 226);
+
+  overflow: hidden;
 }
 .img-animal-wrapper img{
   width: auto;
   height: 50.1vh;
 
   display: flex;
-  object-fit: cover;
 
   box-shadow: 8px 8px 1px var(--color-green);
 
