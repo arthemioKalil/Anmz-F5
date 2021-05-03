@@ -13,8 +13,5 @@ Abrir site no servidor do Heroku.✔
 Aplicar o yarn na aplicação.✔
 
 
-<<<<<<< HEAD
 | AnmZ-F5 ✔ Versão final |
-=======
-| Versão definitiva: Não |
->>>>>>> fdb68b9df6c9e4b475a82e10c6768172ebb76cdc
+
