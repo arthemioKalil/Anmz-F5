@@ -12,7 +12,5 @@ Abrir site no servidor do Heroku.✔
 
 Aplicar o yarn na aplicação.✔
 
-Alargar imagem em um maior tamanho no para PC.
-
 
 | Versão definitiva: Não |
