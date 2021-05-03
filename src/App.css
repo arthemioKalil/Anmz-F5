@@ -212,9 +212,8 @@ font-weight: normal;
 .footpage{
   height: 100vh;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  padding: 0 50%;
+  padding: 0 10%;
 
   background: rgb(218, 218, 218);
 
@@ -222,16 +221,15 @@ font-weight: normal;
 .footpage .contact{
   color:rgb(44, 44, 44);
   padding: 10rem 0 0 0;
-  height: 10vh;
-  width: 50vw;
-  display: flex;
-  justify-content: center;
+  height: 20vh;
   flex-wrap: wrap;
-  
+}
+.footpage .contact h2{
+  font-size: 1.4rem;
+
 }
 .contact p{
-  width: 60vw;
-
+  width: 80vw;
   font-weight: lighter;
   font-size: 20px;
 
