@@ -5,16 +5,30 @@
             clearInterval(t);
             // JS:
 
+            var png = './gnt/png/'
+            var jpg = './gnt/jpg/'
+            var jpeg = './gnt/jpeg/'
+            var gif = './gnt/gif/'
+
             var myElement = document.getElementById('myImg'),
                 myImgs = [
-                    'https://pbs.twimg.com/media/EzqgqRxXsAI2lYW?format=jpg&name=360x360',       //:0
-                    'https://pbs.twimg.com/media/EzlORKTX0AAHbXN?format=jpg&name=360x360',
-                    'https://pbs.twimg.com/media/Ey3eHieXMAU-auZ?format=jpg&name=medium',
-                    'https://pbs.twimg.com/media/E0EBPKcWQAMoGje?format=jpg&name=small',
-                    './gnt/animal1.jpg',
-                    './gnt/animal3.jpg',
-                    './gnt/animal4.jpg',
-                    './gnt/animal2.jpg'
+                    `${png}0.png`,
+                    `${png}1.png`,
+                    `${png}2.png`,
+                    `${png}3.png`,
+                    `${jpg}0.jpg`,
+                    `${jpg}1.jpg`,
+                    `${jpg}2.jpg`,
+                    `${jpg}3.jpg`,
+                    `${jpeg}0.jpeg`,
+                    `${jpeg}1.jpeg`,
+                    `${jpeg}2.jpeg`,
+                    `${jpeg}3.jpeg`,
+                    `${jpeg}4.jpeg`,
+                    `${gif}0.gif`,
+                    `${gif}1.gif`,
+                    `${gif}2.gif`
+
 
                 ];
 
@@ -22,10 +36,14 @@
 
                 var myRandomNum = Math.floor(Math.random() * myImgs.length);
                 myElement.src = myImgs[myRandomNum];
-                console.log(`Imagem: ${myImgs[myRandomNum]} N:${myRandomNum}`);
+
+                console.log(`Imagem: ${myElement.src} N:${myRandomNum}`);
+
             }
 
             ChangeImage(myElement, myImgs);
+
+
 
             // JS/>
         }
