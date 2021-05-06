@@ -12,6 +12,8 @@ Abrir site no servidor do Heroku.✔
 
 Aplicar o yarn na aplicação.✔
 
+Aplicar o Backend.
 
-| AnmZ-F5 ✔ Versão final |
+
+| AnmZ-F5  Versão final: Não |
 
