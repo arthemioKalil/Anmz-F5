@@ -14,6 +14,7 @@ Aplicar o yarn na aplicação.✔
 
 Aplicar o Backend.
 
+Erro grave na aplicação: coisas que deveriam estar no backend estão sendo carregadas no frontend.
 
 | AnmZ-F5  Versão final: Não |
 
